@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/logo.png">
+  <title>coffe store</title>
+</head>
+
+<body class="scroll-smooth">
+  <section class="bg-nav bg-center bg-no-repeat bg-cover">
+    <div class="bg-black bg-opacity-80 w-full px-10 py-5">
+      <nav class="z-auto container mx-auto max-w-screen-2xl">
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <img src="assets/images/logo.png" alt="LoGo" class="hidden sm:block">
+          <!-- navbar links -> tablet & desktop -->
+          <ul class="sm:flex justify-center hidden">
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium">Home</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium">About</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium">Serices</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium">Our Specialities</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium">Pricing</li>
+            </a>
+          </ul>
+          <!-- contact button -->
+          <button class="text-white bg-orange-400 py-3 px-10 font-semibold text-lg hidden lg:block">contact</button>
+        </div>
+        <!-- navbar ==> mobile -->
+        <div class="sm:hidden w-full">
+          <!-- Mobile menu button -->
+          <div class="sm:hidden flex justify-between w-full">
+            <div class=""><a href="home.html"><img src="../assets/images/logo.png" class="w-28"></a></div>
+            <button class="outline-none mobile-menu-button">
+              <svg class="w-8 h-8 rounded-md m-5 text-white " x-show="!showMenu" fill="none" stroke-linecap="round"
+                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+          <ul class="text-white text-center pt-5 pb-5 hidden mobile-menu">
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium py-2">Home</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium py-2">About</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium py-2">Serices</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium py-2">Our Specialities</li>
+            </a>
+            <a href="#">
+              <li class="px-2 text-orange-400 lg:text-white font-medium py-2">Pricing</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <section class="my-5">
+        <p class="text-center py-2 text-white font-extralight text-lg mx-5">WELLCOME / PREMIUME CAFFEE SHOP</p>
+        <div class="flex justify-center">
+          <p class="text-center py-10 text-white text-5xl font-extrabold w-3/4">Exclusive beans. Ground
+            coffee. Coffee pods.</p>
+        </div>
+        <p class="text-center py-10 px-5 text-white font-extralight text-lg mx-5">studies show productivity rises by 60%
+          after drinking coffee.</p>
+        <div class="flex justify-center flex-col xs2:flex-row mx-5 mb-10">
+          <button class="text-sm px-10 py-2 text-white bg-red-600 mx-2 m-1">TEST SOME!!</button>
+          <button class="text-sm px-10 py-2 text-white border border-white m-2">VISIT US!</button>
+        </div>
+      </section>
+    </div>
+  </section>
+  <!-- who we are -->
+  <section class="my-4 z-auto container mx-auto max-w-screen-xl">
+    <div class="grid lg:grid-cols-2 gap-4 items-center">
+      <div class="py-2 px-5">
+        <p class="text-amber-700">WHO WE ARE</p>
+        <p class="text-2xl font-bold py-3">Enjoy the best <span class="text-amber-600">roasted coffee</span> inma
+          classic style.</p>
+        <p class="text-sm pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vel, doloribus
+          numquam dolores dignissimos quia totam, non iste optio deleniti obcaecati, velit nesciunt. Veniam, non
+          reprehenderit ullam enim est ut? Quam, cupiditate. Eaque dolores libero ducimus accusantium, quisquam, modi
+          nihil impedit voluptatum adipisci deleniti autem optio assumenda repellat ipsa repudiandae.</p>
+        <button class="py-2 px-10 bg-red-500 text-white">GET STARTED NOW</button>
+      </div>
+      <div class="my-4 mx-4 flex justify-center xl:block ">
+        <div class="">
+          <img src="assets/images/cropped-img-9-1.jpg" alt="~_~" class="w-full">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- what we offer -->
+  <section class="bg-red-100 py-12">
+    <div class="my-4 z-auto container mx-auto max-w-screen-xl">
+      <p class="text-amber-700 text-center">WHO WE ARE</p>
+      <p class="text-2xl font-bold py-3 text-center"><span class="text-amber-600">Best coffee</span> in a classic style
+      </p>
+      <p class="text-sm pb-3 text-center">I only need coffee on days ending with "y"</p>
+      <!-- card section -->
+      <div class="flex justify-around flex-wrap">
+        <!-- product -->
+        <div class="w-60 text-center m-8">
+          <div class="flex justify-center py-3">
+            <img src="assets/images/cappuccino.gif" alt="">
+          </div>
+          <p class="text-sm font-bold text-amber-900">ESPRESSO MOCHA</p>
+          <p class="text-xs text-amber-600 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias
+            molestiae dolorem eligendi expedita ad quisquam eveniet, dolor ipsam accusamus.</p>
+        </div>
+        <!-- product -->
+        <div class="w-60 text-center m-8">
+          <div class="flex justify-center py-3">
+            <img src="assets/images/coffee_bag.gif" alt="">
+          </div>
+          <p class="text-sm font-bold text-amber-900">COFFEE GRINDER</p>
+          <p class="text-xs text-amber-600 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias
+            molestiae dolorem eligendi expedita ad quisquam eveniet, dolor ipsam accusamus.</p>
+        </div>
+        <!-- product -->
+        <div class="w-60 text-center m-8">
+          <div class="flex justify-center py-3">
+            <img src="assets/images/coffee.gif" alt="">
+          </div>
+          <p class="text-sm font-bold text-amber-900">COFFEE CUPS</p>
+          <p class="text-xs text-amber-600 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias
+            molestiae dolorem eligendi expedita ad quisquam eveniet, dolor ipsam accusamus.</p>
+        </div>
+        <!-- product -->
+        <div class="w-60 text-center m-8">
+          <div class="flex justify-center py-3">
+            <img src="assets/images/coffee_grinder.gif" alt="">
+          </div>
+          <p class="text-sm font-bold text-amber-900">COFFEE MAKER</p>
+          <p class="text-xs text-amber-600 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias
+            molestiae dolorem eligendi expedita ad quisquam eveniet, dolor ipsam accusamus.</p>
+        </div>
+        <!-- product -->
+        <div class="w-60 text-center m-8">
+          <div class="flex justify-center py-3">
+            <img src="assets/images/aeropress.gif" alt="">
+          </div>
+          <p class="text-sm font-bold text-amber-900">BEAN VARIETIES</p>
+          <p class="text-xs text-amber-600 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias
+            molestiae dolorem eligendi expedita ad quisquam eveniet, dolor ipsam accusamus.</p>
+        </div>
+        <!-- product -->
+        <div class="w-60 text-center m-8">
+          <div class="flex justify-center py-3">
+            <img src="assets/images/coffee_maker.gif" alt="">
+          </div>
+          <p class="text-sm font-bold text-amber-900">TURKISH IBRIK</p>
+          <p class="text-xs text-amber-600 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias
+            molestiae dolorem eligendi expedita ad quisquam eveniet, dolor ipsam accusamus.</p>
+        </div>
+        <!-- product -->
+        <div class="w-60 text-center m-8">
+          <div class="flex justify-center py-3">
+            <img src="assets/images/frappe.gif" alt="">
+          </div>
+          <p class="text-sm font-bold text-amber-900">COFFEE TO GO</p>
+          <p class="text-xs text-amber-600 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias
+            molestiae dolorem eligendi expedita ad quisquam eveniet, dolor ipsam accusamus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- our facts in number -->
+  <section class="py-8 bg-red-500">
+    <div class="my-4 z-auto container mx-auto max-w-screen-xl text-white">
+      <p class="text-amber-500 text-center">OUR FACTS IN NUMBERS</p>
+      <p class="text-2xl font-bold py-3 text-center">Why pepole <span class="text-amber-400">choose us</span> ?</p>
+      <p class="text-sm pb-3 text-center">Once you wake up and smell the coffee, it's heard to go back to sleep.</p>
+      <!-- grid grid-cols-2 gap-4 -->
+      <div id="numbers-box" class="flex justify-evenly flex-wrap">
+        <!-- COFFE VARITIES -->
+        <div class="text-cente mt-4 py-2 w-60">
+          <div class="flex justify-center items-center">
+            <span id="Number1" class="transition-all" data-value="50"></span>
+            <img src="assets/icons/coffee.png" alt="" class="mx-1 w-6 h-6">
+          </div>
+          <p class="text-center text-amber-400">COFFE VARITIES</p>
+        </div>
+        <!-- COFFEE PROVIDERS -->
+        <div class="text-cente mt-4 py-2 w-60">
+          <div class="flex justify-center items-center">
+            <span id="Number2" class="transition-all" data-value="75"></span>
+            <img src="assets/icons/leaf.png" alt="" class="mx-1 w-6 h-6">
+          </div>
+          <p class="text-center text-amber-400">COFFEE PROVIDERS</p>
+        </div>
+        <!-- AWARDS -->
+        <div class="text-cente mt-4 py-2 w-60">
+          <div class="flex justify-center items-center">
+            <span id="Number3" class="transition-all" data-value="25"></span>
+            <img src="assets/icons/cup.png" alt="" class="mx-1 w-6 h-6">
+          </div>
+          <p class="text-center text-amber-400">AWARDS</p>
+        </div>
+        <!-- HAPPY CLIENTS -->
+        <div class="text-cente mt-4 py-2 w-60">
+          <div class="flex justify-center items-center">
+            <span id="Number4" class="transition-all" data-value="100"></span>
+            <img src="assets/icons/smiling.png" alt="" class="mx-1 w-6 h-6">
+          </div>
+          <p class="text-center text-amber-400">HAPPY CLIENTS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- our offer -->
+  <section class="bg-[#bc581c] px-5">
+    <div class="z-auto container mx-auto max-w-screen-xl py-20 px-5">
+      <p class="text-center text-white">OUR OFFER</p>
+      <p class="text-2xl font-bold py-3 text-center text-white">All about <span class="text-amber-400">coffee</span> ?
+      </p>
+      <p class="text-sm pb-3 text-center text-white">Once you wake up and smell the coffee, it's heard to go back to
+        sleep.</p>
+      <!-- blog cards -->
+      <div class="pt-10 px-5 flex justify-evenly flex-wrap">
+        <!-- blog card -->
+        <div class="w-64 xs2:m-4 my-2">
+          <img src="assets/images/cropped-img-6.jpg" alt="" class="w-full">
+          <!-- card text content -->
+          <div class="bg-white py-5 px-3">
+            <p class="text-black font-light pb-5">Enjoy iced coffee</p>
+            <p class="text-black text-xs pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste
+              dignissimos fugit dicta! Eligendi quod totam dolor enim molestias sequi!</p>
+            <hr class="w-full">
+            <button class="w-3/5 xs2:w-2/5 flex justify-between items-center mt-5 transition-all hover:w-full">
+              <span class="text-sm text-orange-400">learn more</span>
+              <img src="assets/icons/left-arrow.png" alt="" class="rotate-180 w-3 h-4 mt-1">
+            </button>
+          </div>
+        </div>
+        <!-- blog card -->
+        <div class="w-64 xs2:m-4 my-2">
+          <img src="assets/images/cropped-img-7.jpg" alt="" class="w-full">
+          <!-- card text content -->
+          <div class="bg-white py-5 px-3">
+            <p class="text-black font-light pb-5">Enjoy iced coffee</p>
+            <p class="text-black text-xs pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste
+              dignissimos fugit dicta! Eligendi quod totam dolor enim molestias sequi!</p>
+            <hr class="w-full">
+            <button class="w-3/5 xs2:w-2/5 flex justify-between items-center mt-5 transition-all hover:w-full">
+              <span class="text-sm text-orange-400">learn more</span>
+              <img src="assets/icons/left-arrow.png" alt="" class="rotate-180 w-3 h-4 mt-1">
+            </button>
+          </div>
+        </div>
+        <!-- blog card -->
+        <div class="w-64 xs2:m-4 my-2">
+          <img src="assets/images/cropped-img-4.jpg" alt="" class="w-full">
+          <!-- card text content -->
+          <div class="bg-white py-5 px-3">
+            <p class="text-black font-light pb-5">Enjoy iced coffee</p>
+            <p class="text-black text-xs pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste
+              dignissimos fugit dicta! Eligendi quod totam dolor enim molestias sequi!</p>
+            <hr class="w-full">
+            <button class="w-3/5 xs2:w-2/5 flex justify-between items-center mt-5 transition-all hover:w-full">
+              <span class="text-sm text-orange-400">learn more</span>
+              <img src="assets/icons/left-arrow.png" alt="" class="rotate-180 w-3 h-4 mt-1">
+            </button>
+          </div>
+        </div>
+        <!-- blog card -->
+        <div class="w-64 xs2:m-4 my-2">
+          <img src="assets/images/cropped-img-10.jpg" alt="" class="w-full">
+          <!-- card text content -->
+          <div class="bg-white py-5 px-3">
+            <p class="text-black font-light pb-5">Enjoy iced coffee</p>
+            <p class="text-black text-xs pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste
+              dignissimos fugit dicta! Eligendi quod totam dolor enim molestias sequi!</p>
+            <hr class="w-full">
+            <button class="w-3/5 xs2:w-2/5 flex justify-between items-center mt-5 transition-all hover:w-full">
+              <span class="text-sm text-orange-400">learn more</span>
+              <img src="assets/icons/left-arrow.png" alt="" class="rotate-180 w-3 h-4 mt-1">
+            </button>
+          </div>
+        </div>
+        <!-- blog card -->
+        <div class="w-64 xs2:m-4 my-2">
+          <img src="assets/images/cropped-img-11.jpg" alt="" class="w-full">
+          <!-- card text content -->
+          <div class="bg-white py-5 px-3">
+            <p class="text-black font-light pb-5">Enjoy iced coffee</p>
+            <p class="text-black text-xs pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste
+              dignissimos fugit dicta! Eligendi quod totam dolor enim molestias sequi!</p>
+            <hr class="w-full">
+            <button class="w-3/5 xs2:w-2/5 flex justify-between items-center mt-5 transition-all hover:w-full">
+              <span class="text-sm text-orange-400">learn more</span>
+              <img src="assets/icons/left-arrow.png" alt="" class="rotate-180 w-3 h-4 mt-1">
+            </button>
+          </div>
+        </div>
+        <!-- blog card -->
+        <div class="w-64 xs2:m-4 my-2">
+          <img src="assets/images/cropped-img-12.jpg" alt="" class="w-full">
+          <!-- card text content -->
+          <div class="bg-white py-5 px-3">
+            <p class="text-black font-light pb-5">Enjoy iced coffee</p>
+            <p class="text-black text-xs pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste
+              dignissimos fugit dicta! Eligendi quod totam dolor enim molestias sequi!</p>
+            <hr class="w-full">
+            <button class="w-3/5 xs2:w-2/5 flex justify-between items-center mt-5 transition-all hover:w-full">
+              <span class="text-sm text-orange-400">learn more</span>
+              <img src="assets/icons/left-arrow.png" alt="" class="rotate-180 w-3 h-4 mt-1">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- coffee facts one -->
+  <section class="my-4 z-auto px-5 container mx-auto max-w-screen-xl">
+    <div class="grid lg:grid-cols-2 gap-4 items-center">
+      <!-- image -->
+      <div class="my-2 mx-4 flex justify-center xl:block ">
+        <div class="">
+          <img src="assets/images/img-2.jpg" alt="~_~" class="w-full">
+        </div>
+      </div>
+      <!-- texts -->
+      <div class="py-2 px-5">
+        <p class="text-amber-700">COFFEE FACTS</p>
+        <p class="text-2xl font-bold py-3 mb-3">I have measured out my life with coffee spoons.</p>
+        <p class="text-sm pb-3 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vel, doloribus
+          numquam dolores dignissimos quia totam, non iste optio deleniti obcaecati, velit nesciunt. Veniam, non
+          reprehenderit ullam enim est ut? Quam, cupiditate. Eaque dolores libero ducimus accusantium, quisquam, modi
+          nihil impedit voluptatum adipisci deleniti autem optio assumenda repellat ipsa repudiandae.</p>
+        <button class="py-2 px-10 bg-amber-800 text-white">LEARN MORE</button>
+      </div>
+    </div>
+  </section>
+  <!-- coffee facts tow -->
+  <section class="my-4 z-auto px-5 container mx-auto max-w-screen-xl">
+    <div class="grid lg:grid-cols-2 gap-4 items-center mt-28">
+      <!-- texts -->
+      <div class="py-2 px-5">
+        <p class="text-amber-700">COFFEE FACTS</p>
+        <p class="text-2xl font-bold py-3 mb-3">we usually don't notice unitil the coffee tastes funny.</p>
+        <p class="text-sm pb-3 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vel, doloribus
+          numquam dolores dignissimos quia totam, non iste optio deleniti obcaecati, velit nesciunt. Veniam, non
+          reprehenderit ullam enim est ut? Quam, cupiditate. Eaque dolores libero ducimus accusantium, quisquam, modi
+          nihil impedit voluptatum adipisci deleniti autem optio assumenda repellat ipsa repudiandae.</p>
+        <button class="py-2 px-10 bg-amber-800 text-white">LEARN MORE</button>
+      </div>
+      <!-- image -->
+      <div class="my-2 mx-4 flex justify-center xl:block ">
+        <div class="">
+          <img src="assets/images/cropped-img-3-1.jpg" alt="~_~" class="w-full">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- coffee facts tow -->
+  <section class="my-10 py-10 px-5 bg-[#d5161e]">
+    <div class="grid lg:grid-cols-2 gap-4 items-center z-auto container mx-auto max-w-screen-xl">
+      <!-- texts -->
+      <div class="py-2 px-5 text-center">
+        <p class="text-white">A SPECIAL LOCATION </p>
+        <p class="text-white text-2xl font-bold py-3 mb-3">What goes best with a cup of cofee? Another cup!</p>
+        <p class="text-white text-sm pb-3 mb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vel,
+          doloribus
+          numquam dolores dignissimos quia totam, non iste optio deleniti obcaecati, velit nesciunt. Veniam, non
+          reprehenderit ullam enim est ut? Quam, cupiditate. Eaque dolores libero ducimus accusantium, quisquam, modi
+          nihil impedit voluptatum adipisci deleniti autem optio assumenda repellat ipsa repudiandae.</p>
+        <button class="py-2 px-10 text-white border">VISIT US!</button>
+      </div>
+      <!-- image -->
+      <div class="my-2 mx-4 flex justify-center xl:block ">
+        <div class="flex justify-end">
+          <img src="assets/images/cropped-img-11-1.jpg" alt="~_~" class="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- only the best -->
+  <section class="z-auto px-5 container mx-auto max-w-screen-xl">
+    <p class="text-amber-800 text-center">ONNLY THE BEST</p>
+    <p class="text-2xl font-bold py-3 text-center">Our <span class="text-amber-800">specialities</span></p>
+    <p class="text-sm pb-3 text-center">Why did hipster his tongue? Because he drank his coffee before it was cool.</p>
+    <!-- product cards -->
+    <div class="flex justify-evenly flex-wrap mt-10">
+      <!-- product card -->
+      <div
+        class="w-72 border-t border-x border-b-2 border-y-gray-300 border-t-gray-300 border-b-red-600 m-4 text-center rounded-t-lg">
+        <div class="flex justify-center"><img src="assets/images/coffee-1.jpg" alt="" class="w-64 my-10"></div>
+        <p class="text-sm text-red-600 font-semibold text-center">SMOOTH & CREANY</p>
+        <p class="text-3xl text-center py-3">18$</p>
+        <button class="py-2 px-5 text-white bg-red-600 text-xs mb-4">Bay Now!</button>
+      </div>
+      <!-- product card -->
+      <div
+        class="w-72 border-t border-x border-b-2 border-y-gray-300 border-t-gray-300 border-b-red-600 m-4 text-center rounded-t-lg">
+        <div class="flex justify-center"><img src="assets/images/coffee-2.jpg" alt="" class="w-64 my-10"></div>
+        <p class="text-sm text-red-600 font-semibold text-center">MOCHA</p>
+        <p class="text-3xl text-center py-3">36$</p>
+        <button class="py-2 px-5 text-white bg-red-600 text-xs mb-4">Bay Now!</button>
+      </div>
+      <!-- product card -->
+      <div
+        class="w-72 border-t border-x border-b-2 border-y-gray-300 border-t-gray-300 border-b-red-600 m-4 text-center rounded-t-lg">
+        <div class="flex justify-center"><img src="assets/images/coffee-3.jpg" alt="" class="w-64 my-10"></div>
+        <p class="text-sm text-red-600 font-semibold text-center">STRONG</p>
+        <p class="text-3xl text-center py-3">22$</p>
+        <button class="py-2 px-5 text-white bg-red-600 text-xs mb-4">Bay Now!</button>
+      </div>
+    </div>
+  </section>
+  <!-- our specials take away -->
+  <section class="mt-10 pb-10 pt-32 px-5 bg-[#67310f]">
+    <div class="z-auto container mx-auto max-w-screen-xl">
+      <p class=" text-center text-white">OUR SPECIALS TAKE AWAY</p>
+      <p class="text-2xl font-bold py-3 text-center text-white">Choose your <span class="text-amber-400">flavor</span>
+      </p>
+      <p class="text-sm pb-3 text-center text-white">Three cups of coffee a day keeps the doctor away!</p>
+      <!-- latte cards -->
+      <div class="my-5 flex justify-evenly flex-wrap">
+        <!-- latte card -->
+        <div class="text-center my-5 py-5 px-3 bg-white w-72 rounded-lg">
+          <p class="text-sm text-amber-900">CAFFEE LATTE</p>
+          <img src="assets/images/prod-1.png" alt="" class="">
+          <p class="text-3xl text-center py-5 font-bold">10$</p>
+          <p class="text-red-600 text-xs">100g</p>
+          <p class="text-amber-900 font-light py-5">fresh brewed coffee and steamed milk with lotem ipsum dolor!</p>
+          <div class="flex justify-center">
+            <button
+              class="py-2 px-5 text-white bg-red-600 text-xs mb-4 flex justify-center items-center transition-all duration-1000 hover:justify-between hover:w-full">
+              <img src="assets/icons/bay.png" alt="" class="px-1 w-6 h-5">
+              <p class="px-1">Bay</p>
+            </button>
+          </div>
+        </div>
+        <!-- latte card -->
+        <div class="text-center my-5 py-5 px-3 bg-white w-72 rounded-lg">
+          <p class="text-sm text-amber-900">CAFFEE LATTE</p>
+          <img src="assets/images/prod-2.png" alt="" class="">
+          <p class="text-3xl text-center py-5 font-bold">20$</p>
+          <p class="text-red-600 text-xs">200g</p>
+          <p class="text-amber-900 font-light py-5">fresh brewed coffee and steamed milk with lotem ipsum dolor!</p>
+          <div class="flex justify-center">
+            <button
+              class="py-2 px-5 text-white bg-red-600 text-xs mb-4 flex justify-center items-center transition-all duration-1000 hover:justify-between hover:w-full">
+              <img src="assets/icons/bay.png" alt="" class="px-1 w-6 h-5">
+              <p class="px-1">Bay</p>
+            </button>
+          </div>
+        </div>
+        <!-- latte card -->
+        <div class="text-center my-5 py-5 px-3 bg-white w-72 rounded-lg">
+          <p class="text-sm text-amber-900">CAFFEE LATTE</p>
+          <img src="assets/images/prod-3.png" alt="" class="">
+          <p class="text-3xl text-center py-5 font-bold">30$</p>
+          <p class="text-red-600 text-xs">300g</p>
+          <p class="text-amber-900 font-light py-5">fresh brewed coffee and steamed milk with lotem ipsum dolor!</p>
+          <div class="flex justify-center">
+            <button
+              class="py-2 px-5 text-white bg-red-600 text-xs mb-4 flex justify-center items-center transition-all duration-1000 hover:justify-between hover:w-full">
+              <img src="assets/icons/bay.png" alt="" class="px-1 w-6 h-5">
+              <p class="px-1">Bay</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="w-full m-0 p-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#67310f" fill-opacity="1"
+        d="M0,128L6.2,106.7C12.3,85,25,43,37,42.7C49.2,43,62,85,74,128C86.2,171,98,213,111,208C123.1,203,135,149,148,154.7C160,160,172,224,185,234.7C196.9,245,209,203,222,165.3C233.8,128,246,96,258,106.7C270.8,117,283,171,295,176C307.7,181,320,139,332,149.3C344.6,160,357,224,369,234.7C381.5,245,394,203,406,160C418.5,117,431,75,443,74.7C455.4,75,468,117,480,149.3C492.3,181,505,203,517,176C529.2,149,542,75,554,74.7C566.2,75,578,149,591,170.7C603.1,192,615,160,628,170.7C640,181,652,235,665,256C676.9,277,689,267,702,240C713.8,213,726,171,738,138.7C750.8,107,763,85,775,96C787.7,107,800,149,812,170.7C824.6,192,837,192,849,192C861.5,192,874,192,886,213.3C898.5,235,911,277,923,293.3C935.4,309,948,299,960,250.7C972.3,203,985,117,997,74.7C1009.2,32,1022,32,1034,32C1046.2,32,1058,32,1071,42.7C1083.1,53,1095,75,1108,106.7C1120,139,1132,181,1145,202.7C1156.9,224,1169,224,1182,192C1193.8,160,1206,96,1218,90.7C1230.8,85,1243,139,1255,144C1267.7,149,1280,107,1292,112C1304.6,117,1317,171,1329,181.3C1341.5,192,1354,160,1366,128C1378.5,96,1391,64,1403,48C1415.4,32,1428,32,1434,32L1440,32L1440,0L1433.8,0C1427.7,0,1415,0,1403,0C1390.8,0,1378,0,1366,0C1353.8,0,1342,0,1329,0C1316.9,0,1305,0,1292,0C1280,0,1268,0,1255,0C1243.1,0,1231,0,1218,0C1206.2,0,1194,0,1182,0C1169.2,0,1157,0,1145,0C1132.3,0,1120,0,1108,0C1095.4,0,1083,0,1071,0C1058.5,0,1046,0,1034,0C1021.5,0,1009,0,997,0C984.6,0,972,0,960,0C947.7,0,935,0,923,0C910.8,0,898,0,886,0C873.8,0,862,0,849,0C836.9,0,825,0,812,0C800,0,788,0,775,0C763.1,0,751,0,738,0C726.2,0,714,0,702,0C689.2,0,677,0,665,0C652.3,0,640,0,628,0C615.4,0,603,0,591,0C578.5,0,566,0,554,0C541.5,0,529,0,517,0C504.6,0,492,0,480,0C467.7,0,455,0,443,0C430.8,0,418,0,406,0C393.8,0,382,0,369,0C356.9,0,345,0,332,0C320,0,308,0,295,0C283.1,0,271,0,258,0C246.2,0,234,0,222,0C209.2,0,197,0,185,0C172.3,0,160,0,148,0C135.4,0,123,0,111,0C98.5,0,86,0,74,0C61.5,0,49,0,37,0C24.6,0,12,0,6,0L0,0Z">
+      </path>
+    </svg>
+  </div>
+  <!-- premium special -->
+  <section class="my-10 py-10 px-5 ">
+    <div class="grid lg:grid-cols-2 gap-4 items-center z-auto container mx-auto max-w-screen-xl">
+      <!-- texts -->
+      <div class="py-2 px-5 text-center">
+        <p class=" text-center text-amber-800">PREMIUM SPECIAL</p>
+        <p class="text-2xl font-bold py-3 text-center">Choose your <span class="text-amber-800">flavor</span></p>
+        <p class=" text-sm pb-3 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, deserunt fuga?
+          Rerum, tenetur ipsam facere ex minima qui cumque illo!</p>
+        <p class="text-3xl font-bold pt-2 pb-5">99$</p>
+        <button class="py-2 px-10 text-white bg-red-600">BUY OUR SPECIAL COFFEE!</button>
+      </div>
+      <!-- image -->
+      <div class="my-2 mx-4 flex justify-center xl:block ">
+        <div class="flex justify-end">
+          <img src="assets/images/special-coffee-1.jpg" alt="~_~" class="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- gallery -->
+  <section class="z-auto container mx-auto max-w-screen-xl">
+    <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-0">
+      <div class=""><img src="assets/images/cropped-img-4.jpg" alt="" class="w-full m-0 p-0"></div>
+      <div class="hidden xl:block"><img src="assets/images/cropped-img-5-1.jpg" alt="" class="w-full m-0 p-0"></div>
+      <div class="hidden lg:block"><img src="assets/images/cropped-img-6.jpg" alt="" class="w-full m-0 p-0"></div>
+      <div class=""><img src="assets/images/cropped-img-7.jpg" alt="" class="w-full m-0 p-0"></div>
+      <div class="hidden lg:block"><img src="assets/images/cropped-img-9-1.jpg" alt="" class="w-full m-0 p-0"></div>
+      <div class=""><img src="assets/images/cropped-img-11.jpg" alt="" class="w-full m-0 p-0"></div>
+      <div class=""><img src="assets/images/cropped-img-10.jpg" alt="" class="w-full m-0 p-0"></div>
+      <div class="hidden xl:block"><img src="assets/images/cropped-img-12.jpg" alt="" class="w-full m-0 p-0"></div>
+    </div>
+  </section>
+  <!-- our happy clients -->
+  <section class="bg-[#fdf0e8] py-10">
+    <div class="z-auto container mx-auto max-w-screen-xl">
+      <p class="text-amber-800 text-center">OUR HAPPY CLIENTS</p>
+      <p class="text-2xl font-bold py-3 text-center"><span class="text-amber-800">Clinet</span> testmotionals
+      </p>
+      <p class="text-sm pb-3 text-center">Our happy caffee lovers and their awesome comments!</p>
+      <!-- profile card -->
+      <div class="flex justify-evenly flex-wrap">
+        <!-- profile card -->
+        <div class="bg-white border border-gray-300 w-72 text-center py-5 px-4 m-3 rounded-lg">
+          <div class="flex justify-center"><img src="assets/icons/user.png" alt=""></div>
+          <p class="text-xs py-5">you shuld now that before 10am, no matter what the question is, my answer is always
+            caffee.lfe is what happens between coffe and wein.</p>
+          <div class="flex justify-center">
+            <img src="assets/images/0-1543825502601.jpg" alt="" class="rounded-full w-24 h-24 border">
+          </div>
+          <p class="text-gray-500 text-xs py-5">John Doe</p>
+          <p class="text-sm">thery Company</p>
+        </div>
+        <!-- profile card -->
+        <div class="bg-white border border-gray-300 w-72 text-center py-5 px-4 m-3 rounded-lg">
+          <div class="flex justify-center"><img src="assets/icons/user.png" alt=""></div>
+          <p class="text-xs py-5">you shuld now that before 10am, no matter what the question is, my answer is always
+            caffee.lfe is what happens between coffe and wein.</p>
+          <div class="flex justify-center">
+            <img src="assets/images/team-4-150x150.jpg" alt="" class="rounded-full w-24 h-24 border">
+          </div>
+          <p class="text-gray-500 text-xs py-5">Scarlet Theme</p>
+          <p class="text-sm">London Company</p>
+        </div>
+        <!-- profile card -->
+        <div class="bg-white border border-gray-300 w-72 text-center py-5 px-4 m-3 rounded-lg">
+          <div class="flex justify-center"><img src="assets/icons/user.png" alt=""></div>
+          <p class="text-xs py-5">you shuld now that before 10am, no matter what the question is, my answer is always
+            caffee.lfe is what happens between coffe and wein.</p>
+          <div class="flex justify-center">
+            <img src="assets/images/team-3-150x150.jpg" alt="" class="-rotate-6 rounded-full w-24 h-24 border">
+          </div>
+          <p class="text-gray-500 text-xs py-5">sara rose</p>
+          <p class="text-sm">Rose Company</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-hero bg-center bg-no-repeat bg-cover">
+    <div class="bg-black bg-opacity-50 w-full px-10 py-5">
+      <div class="z-auto container mx-auto max-w-screen-xl text-center text-white px-10 py-28">
+        <p class="text-white text-3xl font-medium pb-7">Start Your Day With Mesmerize Cafe!</p>
+        <p class="text-white">May your coffee strong and your monday be short.</p>
+      </div>
+    </div>
+  </section>
+  <!-- where to find us -->
+  <section class="py-10">
+    <div class="z-auto container mx-auto max-w-screen-xl">
+      <p class="text-amber-800 text-center">WHERE TO FIND US</p>
+      <p class="text-2xl font-bold py-3 text-center"><span class="text-amber-800">Our Coffee</span> Location</p>
+      <p class="text-sm pb-3 text-center">Depresso : Thr feeling you get when your run out of coffee.</p>
+      <div class="grid lg:grid-cols-2 gap-4 items-center my-10">
+        <!-- image -->
+        <div class="my-2 mx-4 flex justify-center xl:block">
+          <div class="">
+            <img src="assets/images/map2.png" alt="~_~" class="w-full">
+          </div>
+        </div>
+        <!-- texts -->
+        <div class="py-2 px-5">
+          <h1 class="text-amber-700 text-2xl pb-10">Get in touch</h1>
+          <!-- address -->
+          <div class="flex flex-col xs2:flex-row my-4">
+            <p class="text-gray-500 trxt-xl mr-5">Address :</p>
+            <p class="text-gray-500 pt-5 xs2:pt-0">2554 Mocka Caffee Suite 389 Los Cafecitos, CA 10050</p>
+          </div>
+          <!-- Phone -->
+          <div class="flex flex-col xs2:flex-row my-4">
+            <p class="text-gray-500 trxt-xl mr-5">Phone :</p>
+            <p class="text-gray-500 pt-5 xs2:pt-0">+1 234 567 89</p>
+          </div>
+          <!-- E-mail -->
+          <div class="flex flex-col xs2:flex-row my-4">
+            <p class="text-gray-500 trxt-xl mr-5">E-mail :</p>
+            <p class="text-gray-500 pt-5 xs2:pt-0">admin@sample.com</p>
+          </div>
+          <!-- Follow Us -->
+          <div class="flex flex-col xs2:flex-row items-center my-4">
+            <p class="text-gray-500 trxt-xl mr-5">Follow Us :</p>
+            <div class="flex pt-5 xs2:pt-0">
+              <img src="assets/icons/facebook.png" alt="" class="px-1 w-9 h-8">
+              <img src="assets/icons/twitter.png" alt="" class="px-1 w-9 h-8">
+              <img src="assets/icons/youtube.png" alt="" class="px-1 w-9 h-8">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <nav class="bg-footer bg-top bg-no-repeat bg-cover">
+      <div class="bg-red-600 bg-opacity-60 w-full">
+        <div class="z-auto container mx-auto max-w-screen-xl text-center text-white px-10 py-28">
+          <button class="bg-orange-400 py-2 px-10">GET STARTED TODAY</button>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 z-auto container mx-auto max-w-screen-3xl text-center">
+      <div class="bg-[#3c4250] px-5 py-10 border-r border-r-slate-500 text-center">
+        <div class="flex justify-center"><img src="assets/icons/map.png"></div>
+        <p class="text-slate-300 py-3">596 Mail Street, WA, 98168</p>
+      </div>
+      <div class="bg-[#3c4250] px-5 py-10 border-r border-r-slate-500">
+        <div class="flex justify-center"><img src="assets/icons/email.png"></div>
+        <p class="text-slate-300 py-3">Contact@yoursite.com</p>
+      </div>
+      <div class="bg-[#3c4250] px-5 py-10 border-r border-r-slate-500">
+        <div class="flex justify-center"><img src="assets/icons/phone.png"></div>
+        <p class="text-slate-300 py-3">+1 (555) 345 234343</p>
+      </div>
+      <div class="bg-[#d5161e] px-5 py-10">
+        <p class="text-slate-300 py-3">
+          © 2021 Coffe l. created for free
+          <br>
+          using WordPress and Colibri
+        </p>
+      </div>
+    </section>
+  </footer>
+  <script type="module" src="src/scripts/main.js"></script>
+</body>
+
+</html>
